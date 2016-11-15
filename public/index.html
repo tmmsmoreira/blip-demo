@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Find Twitch</title>
+
+        <!-- Styles -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="css/app.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">Find Twitch!</a>
+				</div>
+			</div><!--/.navbar-collapse -->
+		  </div>
+		</nav>
+
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div class="jumbotron">
+		  <div class="container">
+			<h1 class="text-center">What do you want to see?</h1>
+			<form id="my-form">
+				<div class="form-group form-group-lg">
+					<input id="search-field" type="text" placeholder="e.g. Fifa" class="form-control text-center">
+				</div>
+				<div class="form-group text-center">
+					<button id="search-button" type="submit" class="btn btn-lg btn-success">Let's find it!</button>
+				</div>
+			</form>
+		  </div>
+		</div>
+		<div class="container">
+			<div id="my-content">
+				<!-- Example row of columns -->
+				<div class="row"></div>
+			</div>
+			<div id="my-loader">
+				<div class="loader">
+					<div class="bounce1"></div>
+					<div class="bounce2"></div>
+					<div class="bounce3"></div>
+				</div>
+			</div>
+
+			<hr>
+
+			<footer>
+				<span class="pull-left"><p>&copy; 2016 Tiago Moreira</p></span>
+				<a class="pull-right" href="instructions.html">Instructions</a>
+			</footer>
+		</div> <!-- /container -->
+
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/app.js"></script>
+    </body>
+</html>
